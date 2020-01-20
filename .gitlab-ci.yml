@@ -5,3 +5,5 @@ deploy:
   only:
     - master
   image: maven:3.3.9-jdk-8
+include:
+  template: Dependency-Scanning.gitlab-ci.yml
