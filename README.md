@@ -32,4 +32,5 @@ you need to add `gitlab-com` server section to your `~/.m2/settings.xml`
 
 ## Forking
 
+
 Once you fork this project, CI should be able to run successfully. Note that the `settings.xml` and `pom.xml` retrieve the required authentication and repository URL information from the automatically created environment variables.
