@@ -32,8 +32,6 @@
       <artifactId>netty-all</artifactId>
       <version>4.0.9.Final</version>
     </dependency>
-
-
     <dependency>
       <groupId>com.aliyun.openservices</groupId>
       <artifactId>ons-client</artifactId>
@@ -49,29 +47,6 @@
       <groupId>com.aliyun.odps</groupId>
       <artifactId>odps-sdk-core</artifactId>
       <version>0.32.5-public</version>
-    </dependency>
-    <dependency>
-      <groupId>com.aliyun.odps</groupId>
-      <artifactId>odps-sdk-mapred</artifactId>
-      <version>${odps.sdk.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>com.aliyun.odps</groupId>
-      <artifactId>odps-mapred-local</artifactId>
-      <version>${odps.sdk.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>com.aliyun.odps</groupId>
-      <artifactId>odps-sdk-graph</artifactId>
-      <version>${odps.sdk.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>com.aliyun.odps</groupId>
-      <artifactId>odps-sdk-udf-internal</artifactId>
-      <version>${odps.sdk.version}</version>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
