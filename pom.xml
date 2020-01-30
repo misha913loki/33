@@ -7,12 +7,6 @@
   <name>my-app</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <java.encoding>UTF-8</java.encoding>
-    <odps.sdk.version>0.33.2</odps.sdk.version>
-  </properties>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -99,6 +93,9 @@
     </repository>
   </distributionManagement>
   <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.encoding>UTF-8</java.encoding>
+    <odps.sdk.version>0.33.2</odps.sdk.version>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
